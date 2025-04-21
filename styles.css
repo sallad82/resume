@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: khaki;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(to top, khaki 10%, steelblue);
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(to bottom, khaki 10%, steelblue);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.content {
+    background-color: steelblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*text inside boxes*/
+.content ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 19px;
+}
+
+.content .bold {
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 19px;
+}
+
+.link:link, .link:visited {
+    background-image: linear-gradient(to top, ivory, steelblue);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid royalblue;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.link:hover {
+    background-image: linear-gradient(to bottom, ivory, steelblue);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid royalblue;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: black;
+}
+
+.info {
+    font-size: larger;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* NAVIGATION MENU */
+
+.navigation .navi {
+    background-image: linear-gradient(to top, ivory, steelblue);
+    color: black;
+    font-size: large;
+    border: 2px solid royalblue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.navigation .navi:hover {
+    background-image: linear-gradient(to bottom, ivory, steelblue);
+    color: black;
+    font-size: large;
+    border: 2px solid royalblue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
